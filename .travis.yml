@@ -1,0 +1,3 @@
+script: ./travis.sh
+notifications:
+  email: false

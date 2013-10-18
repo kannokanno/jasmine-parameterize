@@ -1,6 +1,6 @@
 /*
  * JasmineParameterize v 1.0
- * A jasmine addon for running parameterized tests
+ * A jasmine plugin for running parameterized tests
  * https://github.com/kannokanno/jasmine-parameterize
  * Released under the MIT license.
  */

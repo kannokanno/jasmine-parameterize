@@ -111,4 +111,4 @@ var jasmine_parameterize = (function() {
   "use strict";
   jasmine_parameterize._validate(global);
   global.cases = jasmine_parameterize._casesFunc(global);
-})(window);
+})(typeof window === 'undefined' ? this : window);

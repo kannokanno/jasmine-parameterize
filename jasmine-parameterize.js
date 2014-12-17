@@ -79,7 +79,11 @@ var jasmine_parameterize = (function() {
   }
 
   function joinParams(params) {
-    return params.map(getParamString).join(', ');
+    var r = [];
+    for (var i = 0; i < params.length; i++) {
+      r.push(getParamString(params[i]));
+    }
+    return r.join(', ');
   }
 
   function getParamString(param) {
